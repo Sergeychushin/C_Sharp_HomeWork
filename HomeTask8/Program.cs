@@ -9,5 +9,9 @@ while(count <= number){
         Console.Write($"{count} ");
         count = count + 2;
       }
+     else {
+      number--;
+     }
+      
 
 }
