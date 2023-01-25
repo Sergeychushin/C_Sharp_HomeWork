@@ -11,7 +11,10 @@ int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число В:  ");
 int b = int.Parse(Console.ReadLine()!);
 
-Math.Pow(a, b);
-Console.Write($" число A: {a} B: {b} -> {Math.Pow(a, b)} ");
-
- 
+int result = 1;
+while(b > 0)
+{
+    result = result *a;
+    b--;
+}
+Console.Write($" число A: {a} B: {b} -> {result} ");
