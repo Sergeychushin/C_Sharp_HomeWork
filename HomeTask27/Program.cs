@@ -12,6 +12,6 @@ while(number > 0)
 {
     int a = number % 10;
     sum += a;
-    number = number / 10;
+    number /= 10;
 }
 Console.WriteLine($" число {number} -> {sum}");
