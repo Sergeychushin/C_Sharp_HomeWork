@@ -14,7 +14,7 @@ int b = int.Parse(Console.ReadLine()!);
 int result = 1;
 while(b > 0)
 {
-    result = result *a;
+    result *= a;
     b--;
 }
 Console.Write($" число A: {a} B: {b} -> {result} ");
